@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "demo1": "webpack demo1/dist/index.js demo1/dist/bundle.js"
+    "demo1": "webpack demo1/dist/index.js demo1/dist/bundle.js",
+    "demo2": "webpack --config demo2/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
