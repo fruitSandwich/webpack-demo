@@ -1,0 +1,15 @@
+{
+  "name": "webpack-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo1": "webpack demo1/dist/index.js demo1/dist/bundle.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^2.3.2"
+  },
+  "dependencies": {}
+}
