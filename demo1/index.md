@@ -1,6 +1,6 @@
 # Webpack简单的使用
 
-## 1.场景
+## 1.模块化场景
 有一个非常简单的Web应用，只有三个文件:index.html、index.js、jquery.min.js。其中index.html中引用index.js和jquery，index.js中又使用jquery操作了index.html中的dom，代码如下:
 
 index.html
@@ -49,7 +49,6 @@ Uncaught ReferenceError: $ is not defined
 
 很多web插件一般都要引入一套js一套css，有些甚至除了引入自身的js和css还要在引入自身之前引入自身依赖，比如很多jquery插件就需要在引入之前先引入jquery。
 
-## 2.模块化系统
 这时候需要模块化系统来管理这些依赖，关于模块化系统可以参考<a href='http://blog.fruitsandwich.cc/javascript-module/'>javascript模块化</a>。
 
 模块化可选择：
@@ -60,7 +59,7 @@ Uncaught ReferenceError: $ is not defined
 
 这里我们介绍Webpack的用法和介绍
 
-## 3.简单使用Webpack
+## 2.全局安装在命令行下使用Webpack
 
 全局安装webpack
 ```

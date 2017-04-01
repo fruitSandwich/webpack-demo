@@ -1,6 +1,6 @@
 # Webpack项目环境和配置
 
-## 1.项目环境下使用Webpack
+## 1.项目环境下安装并使用Webpack
 
 demo1中在全局安装webpack的环境下使用webpack命令实现了打包编译:
 ```
@@ -30,7 +30,8 @@ npm run build
 
 这样即使主机环境没有安装webpack也可以通过项目启动webpack，这也是很多项目通常的做法。
 
-## 2.webpack配置
+## 2.通过配置文件启动webpack
+
 前面的例子里不管是全局环境webpack命令或者是项目环境下通过npm script启动webpack都是直接使用webpack
 命令+参数的形式调用的webpack。如果参数非常长的话每次调用会非常麻烦比如：
 ```
