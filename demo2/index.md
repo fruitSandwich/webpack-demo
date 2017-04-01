@@ -10,7 +10,6 @@ webpack index.js bundle.js
 ```
 
 也可以脱离全局环境在项目环境中安装Webpack
-项目环境下安装webpack
 
 ```
 npm install --save-dev webpack
