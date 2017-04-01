@@ -25,7 +25,7 @@ index.js
 $("#app").text('hello world')
 ```
 
-最终Web<a href='/demo1/origin/index.html'>渲染效果</a>：
+最终Web<a href='./origin/index.html'>渲染效果</a>：
 
 hello world
 
@@ -37,7 +37,7 @@ error.html
 <script src="index.js"></script>
 <script src="jquery.min.js"></script>
 ```
-先加载index.js后加载jquery.min.js，此时浏览器会<a href='/demo1/origin/error.html'>报错</a>：
+先加载index.js后加载jquery.min.js，此时浏览器会<a href='./origin/error.html'>报错</a>：
 
 ```
 Uncaught ReferenceError: $ is not defined
@@ -110,6 +110,6 @@ bundle.js  90.3 kB       0  [emitted]  main
 </html>
 ```
 
-运行后如预期<a href='/demo1/dist/index.html'>渲染效果</a>：
+运行后如预期<a href='./dist/index.html'>渲染效果</a>：
 
 hello world
