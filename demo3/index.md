@@ -181,7 +181,7 @@ output最少需要两个属性：
 single entry
 
 ```
-{
+module.exports = {
   entry: './src/app.js',
   output: {
     filename: 'bundle.js',
@@ -201,7 +201,7 @@ multiple entries
 - [chunkhash] 使用块文件的hash值作为文件名
 
 ```
-{
+module.exports = {
   entry: {
     app: './src/app.js',
     search: './src/search.js'
