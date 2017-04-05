@@ -187,9 +187,8 @@ single entry
     filename: 'bundle.js',
     path: __dirname + '/build'
   }
+  // writes to disk: ./build/bundle.js
 }
-
-// writes to disk: ./build/bundle.js
 ```
 
 multiple entries
@@ -211,9 +210,8 @@ multiple entries
     filename: '[name].js',
     path: __dirname + '/build'
   }
+  // writes to disk: ./build/app.js, ./build/search.js
 }
-
-// writes to disk: ./build/app.js, ./build/search.js
 ```
 
 ### 2.2 output.path
@@ -239,5 +237,3 @@ index.html
 ```
 
 编译的路径就在path写的绝对路径里面，引用就可以通过publicPath写的路径引用了。
-
-
