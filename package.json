@@ -6,12 +6,15 @@
   "scripts": {
     "demo1": "webpack demo1/dist/index.js demo1/dist/bundle.js",
     "demo2": "webpack --config demo2/webpack.config.js",
-    "demo3": "webpack --config demo3/webpack.config.js"
+    "demo3": "webpack --config demo3/webpack.config.js",
+    "demo4_build": "webpack --config demo4/webpack.config.js",
+    "demo4_dev": "webpack-dev-server --open --config demo4/webpack.dev.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "webpack": "^2.3.2"
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2"
   },
   "dependencies": {
     "jquery": "^3.2.1",
