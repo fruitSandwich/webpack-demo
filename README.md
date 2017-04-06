@@ -11,3 +11,7 @@
 ## [3.demo3-webpack entry和output](./demo3/index.md)
 1. entry(入口)
 2. output(出口)
+
+## [4.demo3-开发环境下的Webpack](./demo4/index.md)
+1. Source Maps
+2. 热更新
