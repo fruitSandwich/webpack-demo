@@ -315,4 +315,4 @@ webpack: Compiled successfully.
 
 <a href='./webpack.config.js'>打包版本</a>
 
-<a href='./webpack.config.js'>webpack-dev-server版本</a>
+<a href='./webpack.dev.config.js'>webpack-dev-server版本</a>

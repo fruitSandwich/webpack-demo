@@ -77,7 +77,7 @@ webpack.config.js配置文件中,resolve配置项可以更改指定模块的解�
 比如:
 
 ```
-{
+module.exports = {
  resolve: {
     extensions: ['.js', '.vue', '.json'],
     alias: {
