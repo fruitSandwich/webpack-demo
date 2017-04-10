@@ -8,11 +8,17 @@
     "demo2": "webpack --config demo2/webpack.config.js",
     "demo3": "webpack --config demo3/webpack.config.js",
     "demo4_build": "webpack --config demo4/webpack.config.js",
-    "demo4_dev": "webpack-dev-server --open --config demo4/webpack.dev.config.js"
+    "demo4_dev": "webpack-dev-server --open --config demo4/webpack.dev.config.js",
+    "demo5": "webpack-dev-server --open --config demo5/webpack.config.js"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.3.3",
+    "css-loader": "^0.28.0",
+    "style-loader": "^0.16.1",
     "webpack": "^2.3.2",
     "webpack-dev-server": "^2.4.2"
   },

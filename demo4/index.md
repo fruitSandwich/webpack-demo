@@ -293,7 +293,7 @@ chunk    {1} vendor.min.js (vendors) 1.11 MB [entry] [rendered]
 webpack: Compiled successfully.
 ```
 
-更改源码中app.js后webpack log:
+更改源码保存后的webpack log:
 
 ```
                                                                          webpack: Compiling...
@@ -309,3 +309,10 @@ chunk    {1} vendor.min.js (vendors) 1.11 MB [entry]
      + 87 hidden modules
 webpack: Compiled successfully.
 ```
+
+
+本节涉及内容:
+
+<a href='./webpack.config.js'>打包版本</a>
+
+<a href='./webpack.config.js'>webpack-dev-server版本</a>

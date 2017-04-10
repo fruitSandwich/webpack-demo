@@ -237,3 +237,6 @@ index.html
 ```
 
 编译的路径就在path写的绝对路径里面，引用就可以通过publicPath写的路径引用了。
+
+
+本节涉及内容<a href='./webpack.config.js'>示例</a>

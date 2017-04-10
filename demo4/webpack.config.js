@@ -17,8 +17,4 @@ module.exports = {
         })
     ],
     devtool: 'eval',
-    devServer: {
-        compress: true,
-        port: 9000
-    }
 };

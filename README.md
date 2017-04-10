@@ -12,6 +12,10 @@
 1. entry(入口)
 2. output(出口)
 
-## [4.demo3-开发环境下的Webpack](./demo4/index.md)
+## [4.demo4-开发环境下的Webpack](./demo4/index.md)
 1. Source Maps
 2. 热更新
+
+## [5.demo5-Webpack Modules(模块)和loaders(装载器)](./demo5/index.md)
+1. Modules(模块)
+2. loaders(装载器)

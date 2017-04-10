@@ -10,5 +10,9 @@ module.exports = {
         path: path.resolve(__dirname, 'dist')
     },
     devtool: 'eval',
-
+    devServer: {
+        contentBase: path.join(__dirname, "bundle"),
+        compress: true,
+        port: 9000
+    }
 };
