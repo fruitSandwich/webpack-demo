@@ -9,7 +9,8 @@
     "demo3": "webpack --config demo3/webpack.config.js",
     "demo4_build": "webpack --config demo4/webpack.config.js",
     "demo4_dev": "webpack-dev-server --open --config demo4/webpack.dev.config.js",
-    "demo5": "webpack-dev-server --open --config demo5/webpack.config.js"
+    "demo5": "webpack-dev-server --open --config demo5/webpack.config.js",
+    "demo6": "webpack --config demo6/webpack.config.js"
   },
   "author": "",
   "license": "ISC",

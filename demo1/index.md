@@ -1,4 +1,4 @@
-# Webpack简单的使用
+# Webpack的简单使用
 
 ## 1.模块化场景
 有一个非常简单的Web应用，只有三个文件:index.html、index.js、jquery.min.js。其中index.html中引用index.js和jquery，index.js中又使用jquery操作了index.html中的dom，代码如下:
